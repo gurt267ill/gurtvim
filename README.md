@@ -12,7 +12,7 @@ Welcome to Gurtvim, a [Neovim](https://neovim.io/) distribution made by gurt.
 * Neovim >= **0.11**
 * Git >= **2.19.0**
 * tree-sitter-cli and a C compiler
-* rigrep
+* ripgrep
 * curl
 * Any [Nerd font](https://www.nerdfonts.com/)
 * A terminal that supports true color:
