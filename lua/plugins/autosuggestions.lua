@@ -1,6 +1,6 @@
 return {
   "saghen/blink.cmp",
-  version = "1.*", -- uses prebuilt binaries, no Rust needed
+  version = "1.*",
   dependencies = { "rafamadriz/friendly-snippets" },
   
   opts = {
@@ -8,20 +8,19 @@ return {
     sources = { default = { "lsp", "path", "snippets", "buffer" } },
     completion = {
       menu = {
-	max_height = 4, -- default is 10; lower if you want it tighter
+	max_height = 4,
 	draw = {
 	  columns = {
 	    { "label", gap = 1 },
 	    { "kind_icon", "kind", gap = 1 },
 	  },
-	  -- drop the long signature column:
 	  components = {
 	    label_description = { width = { max = 0 } },
 	  },
 	},
       },
       documentation = {
-	auto_show = false, -- press <C-space> to toggle docs instead
+	auto_show = false,
       },
       ghost_text = { enabled = true },
     },

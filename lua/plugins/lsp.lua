@@ -22,7 +22,7 @@ return {
     end,
   },
 
-  -- Fast, modern autocompletion engine
+  -- autocompletion thingy
   {
     'Saghen/blink.cmp',
     version = '*',
