@@ -3,11 +3,11 @@ local function enable_transparency()
 end
 return {
   {
-    "folke/tokyonight.nvim",
+    "rose-pine/neovim",
+    name = "rose-pine",
     config = function()
-      vim.cmd.colorscheme "tokyonight"
-      -- enable_transparency()
-    end
+    vim.cmd("colorscheme rose-pine")
+  end
   },
   {
     "nvim-lualine/lualine.nvim",
