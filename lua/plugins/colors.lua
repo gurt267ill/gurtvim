@@ -5,8 +5,14 @@ return {
   {
     "rose-pine/neovim",
     name = "rose-pine",
+    priority = 1000,
     config = function()
-    vim.cmd("colorscheme rose-pine")
+      require("rose-pine").setup({
+	variant = "moon",
+	dark_variant = "moon",
+      })
+    vim.cmd("colorscheme rose-pine-moon")
+      -- enable_transparency()
   end
   },
   {
@@ -15,7 +21,7 @@ return {
       "nvim-tree/nvim-web-devicons",
     },
     opts = {
-      theme = 'tokyonight',
+      theme = 'rose-pine',
     }
   }
 }
