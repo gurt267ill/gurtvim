@@ -26,9 +26,15 @@ Welcome to Gurtvim, a [Neovim](https://neovim.io/) distribution made by gurt.
 
 * Make sure to have the requirements
 * Backup your previous Neovim configurations: 
-    ` mv ~/.config/nvim{,.bak} `
+    ```
+    mv ~/.config/nvim{,.bak}
+    ```
 * Clone the repository:
-    ` git clone https://github.com/gurt267ill/gurtvim ~/.config/nvim `
+    ```
+    git clone https://github.com/gurt267ill/gurtvim ~/.config/nvim
+    ```
 * Remove the .git:
-    ` rm -rf ~/.config/nvim/.git `
+    ```
+    rm -rf ~/.config/nvim/.git
+    ```
 * You should be ready after running `nvim` in your terminal.
