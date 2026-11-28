@@ -1,6 +1,3 @@
-local function enable_transparency()
-  vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-end
 return {
   {
     "rose-pine/neovim",
@@ -10,9 +7,12 @@ return {
       require("rose-pine").setup({
 	variant = "moon",
 	dark_variant = "moon",
+	styles = {
+	  transparency = true,
+	},
       })
+
     vim.cmd("colorscheme rose-pine-moon")
-      -- enable_transparency()
   end
   },
   {
